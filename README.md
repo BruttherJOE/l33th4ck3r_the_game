@@ -15,6 +15,9 @@ then ssh into one of the prof's computer and change the student's grades.
 ```  
   
 While not 100% factually correct, this game serves as a beginner tutorial on shell navigation in linux.  
-Perhaps, in future, if time permits, I will add in more functions. Or you can pay me to complete the game.  
+Perhaps, in future, if time permits, I will add in more functions. Or you can pay me to complete the game.
+
+## Disclaimer
+I do not hold any liability or responsibility for any wannabe hackers that cause damage to property or infrastructure of any sort.
   
 `copyright© bruttherjoe 2020`
