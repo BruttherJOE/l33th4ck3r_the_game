@@ -245,8 +245,8 @@ if answer.lower().strip() == "yes":
     #this removes all the spaces at the end and also changes caps to lowercase
     #this also applies lower() and strip() to answer
     #maingame() #use this to shortcut call maingame
-    #game_intro()
-    terminal_function()
+    game_intro()
+    #terminal_function()
  #   answer = input("you reach a xroad left or right").lower().strip()
   #  if answer == "left":
     #    game_intro() #calls game fn
