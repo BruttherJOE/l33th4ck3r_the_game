@@ -6,7 +6,7 @@ It does not require any downloads, installs, or external libraries.
   
   ## Description
 ```
-You are playing as a master hacker that students look up to.  
+You are playing as an elite hacker that even cs students look up to.  
 A student wants you to hack into the school network and change his DW grades.  
 He promises you a great sum of money as compensation.  
   
