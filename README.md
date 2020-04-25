@@ -23,16 +23,16 @@ Perhaps, in future, if time permits, I will add in more functions, and levels wi
 ## Controls  
 You are to type commands to navigate the command terminal.  
 `cd`- change directory  
-  `cd ~` to move to home directory
-  `cd desktop` to move to desktop directory
+  `cd ~` to move to home directory  
+  `cd desktop` to move to desktop directory  
 `ls`- lists all available files  
   
   to open programs, `[programname].exe`  
   to exit programs, `z`  
-  to read files, `nano [filename]`  or `sudo nano [filename]`. this includes the extension at the end.
-  an example is `nano readme.txt`
+  to read files, `nano [filename]`  or `sudo nano [filename]`. this includes the extension at the end.  
+  an example is `nano readme.txt`  
   
-  to ssh, `ssh [username]@[ip address]` in the home directory.
+  to ssh, `ssh [username]@[ip address]` in the home directory.  
   
   ## Navigation
   ALL information on what to type in the terminal can be found in the numerous help files and notes located in my virtual terminal in this game. the user is expected to find them and use them, to complete the game.
