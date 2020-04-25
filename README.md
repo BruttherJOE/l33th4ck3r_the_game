@@ -31,6 +31,10 @@ You are to type commands to navigate the command terminal.
   
 
 ## Disclaimer
-I do not hold any liability or responsibility for any wannabe hackers that cause damage to property or infrastructure of any sort.
+I do not hold any liability or responsibility for any wannabe hackers that cause damage to property or infrastructure of any sort.  
+  
+  Do not attempt to DDOS anyone. This is against the law in most states and it will be easy for you to be caught.  
+  
+  I do not endorse any form of cyber attack.
   
 `copyright© bruttherjoe 2020`
