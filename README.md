@@ -15,19 +15,27 @@ To do that, you have to ddos the school network,
 then ssh into one of the prof's computer and change the student's grades.
 ```  
   
+  `This is an educational puzzle game intended for people new to linux shell navigation.`
+  
 While not 100% factually correct, this game serves as a beginner tutorial on shell navigation in linux.  
-Perhaps, in future, if time permits, I will add in more functions. Or you can pay me to complete the game.
+Perhaps, in future, if time permits, I will add in more functions, and levels will get progressively harder and more complicated. Or you can pay me to complete the game.
   
 ## Controls  
 You are to type commands to navigate the command terminal.  
 `cd`- change directory  
+  `cd ~` to move to home directory
+  `cd desktop` to move to desktop directory
 `ls`- lists all available files  
   
-  to open programs, `{programname}.exe`  
+  to open programs, `[programname].exe`  
   to exit programs, `z`  
-  to read files, `nano {filename}`  
+  to read files, `nano [filename]`  or `sudo nano [filename]`. this includes the extension at the end.
+  an example is `nano readme.txt`
   
+  to ssh, `ssh [username]@[ip address]` in the home directory.
   
+  ## Navigation
+  ALL information on what to type in the terminal can be found in the numerous help files and notes located in my virtual terminal in this game. the user is expected to find them and use them, to complete the game.
   
 
 ## Disclaimer
