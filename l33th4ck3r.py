@@ -136,7 +136,7 @@ def terminal_function(): #undone : help functions. refer to help()
         elif player.oka_ddossed == True:
             ssh_intro()
    
-    while answer not in ["ls","cd desktop","cd pictures","help","ssh"]:#secondary loop
+    while answer not in ["ls","cd desktop","cd pictures","help","ssh oka@192.168.1.1"]:#secondary loop
         print(answer + " is not recognised as an internal or external command, operable program, or batch file")
         answer = input(player.location + "> ")
         if answer.lower().strip() == "ls":#primary loop
@@ -149,7 +149,7 @@ def terminal_function(): #undone : help functions. refer to help()
         if answer.lower() == "help":
             help()
             terminal_function()
-        if answer.lower() == "ssh": #nested loop
+        if answer.lower() == "ssh oka@192.168.1.1": #nested loop
             if player.oka_ddossed == False:
                 print("\nYou should not attempt to ssh without ddos! It will be easy for authorities to catch you!")
                 terminal_function()
