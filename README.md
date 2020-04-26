@@ -1,4 +1,13 @@
 # l33th4ck3r_the_game
+
+```
+ _ ________ _          _  _     __       ____   __    _____        __    ___   _              __  
+| |__ /__ /| |_  /\  /\ || |   / _\ /\ /\__ /  /__\  /__   \/\  /\/__\  / _ \ /_\    /\/\    /__\ 
+| ||_ \|_ \| __|/ /_/ / || |_ / /  / //_/|_ \ / \// _  / /\/ /_/ /_\   / /_\///_\\  /    \  /_\   
+| |__) |_) | |_/ __  /|__   _/ /__/ __ \ __) / _  \|_|/ / / __  //__  / /_/\/  _  \/ /\/\ \//__   
+|_|___/___/ \__\/ /_/    |_| \___/\/  \/|___/\/ \_/   \/  \/ /_/\__/  \____/\_/ \_/\/    \/\__/   
+```
+
 A game I made for digital world assignment.  
 This game was created for me to learn simple terminal level UI programming, as well as simple OOP and simple recursive functions.  
 This game made to be able to be fully run on any python program that has a terminal.  
