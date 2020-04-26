@@ -156,7 +156,6 @@ def terminal_function(): #undone : help functions. refer to help()
             elif player.oka_ddossed == True:
                 ssh_intro()
 
-
 def desktop():
     #print("i am the desktop")
     #print (player.location + "> ")
@@ -194,6 +193,7 @@ def pictures():
     if answer.lower() == "cd ~":
         terminal_function()
     if answer.lower() == "naked.jpg":
+        nakedmolerat()
         print("Congratulations! you have found the easter egg.")
         print("But you are a pervert, so let that sink in.")
         pictures()
@@ -210,6 +210,7 @@ def pictures():
         if answer.lower() == "cd ~":
             terminal_function()
         if answer.lower() == "naked.jpg":
+            nakedmolerat()
             print("Congratulations! you have found the easter egg.")
             print("But you are a pervert, so let that sink in.")
             pictures()
@@ -441,10 +442,46 @@ def help():
     print("\nSudo : Sudo stands for superuser do. it gives you admin priveleges such that you can edit text files.")
     print("\nDDOS - distributed denial of service. Floods target with unwanted traffic such that it cannot function.")
     print("\nFor level 2: to SSH, type SSH [username]@[ip address] in the home directory.\n")
-    print("SSH - secure shell. Allows you to remotely and securely access computers over the wifi. Do not attempt to SSH without DDOS! ")
+    print("SSH - secure shell. Allows you to remotely and securely access computers over the wifi. Do not attempt to SSH without DDOS! \n")
     os.system('pause') #press any key to continue. this is in the os package.
     cls()
     
+def nakedmolerat():
+    cls()
+    rat = (     
+    ',, PICTURE OF A NAKED MOLE RAT ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,:=+=++?=,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,++???????????????=,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,+?+?+?++?????????????III?+,,,,,,,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,,,,,,=?????II???II??????I?+????I+????I?II???I?+,,,,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,,,+??+?????II?III?IIIII????I??+I?IIII?I?III?II???=,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,+??I?IIIIIIIIII?IIIIII+?I+II???II?II?II?IIIIIIII???=,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,:??II??IIIIIII7+I?I?I?IIII+?III?I?II??I???IIIII?IIII???~,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,????II?II00IIIIIIIII?III??=III?I?III??????IIIIIIIIIIII??+,,,,,,,,,,,,,,\n'
+    ',,,,,,,,+??????IIIIIIIIII?I?III?I~I?III??I??7??I+???I?IIIIII?II?I??,,,,,,,,,,,,,\n'
+    ',,,,,,,,???IIIIIII?IIII???IIII???=?=II?I?I?II???????+?IIIIIII???????,,,,,,,,,,,,\n'
+    ',,,,,,,,??+++?IIIII?7?+??=??+??+=+++II???II?I=+=??+I?+III?I?I?I??I?+~,,,,,,,,,,,\n'
+    ',,,,,,,~?++++++?????II+=+~++????=?+?I?III??+??+=?=+++?+?I?III???????+=,,,,,,,,,,\n'
+    ',,,,,,,:=+=??I=++?????=::=+=?++=+I=+III????+++?+++=++??I+I+II????+??+?,:,,,,,,,,\n'
+    '..,,,,,,,~=+?I:=++++++,,~===+?+++?+?I????++=+~?~~=?=??+++?I+?II??????I?,,.,,,,,,\n'
+    '.....,.,..,:?~I:,,:=+,,:::~~=++++?~+?++===+:,:,:?,:~~~=?=+++?I???+??II??,,..,,,,\n'
+    '....,.....,:,:,,,,::,,:,::::+++++=,===~:,,:............:~~+?+?I??+?II?+?~....,.,\n'
+    '.............,,.,,~::,,,,.~=+===:........................:+?++??++I?~,:+?:,.,,,.\n'
+    '.........,..........:....~+=~=~............................+=++??,,,..,=+?,..,,,\n'
+    '................~=~~:~~=====~...............................=+???......:=??...,,\n'
+    '.,.......,,,.....=+++=+++++.................................,=???,.....,~+?,.,,,\n'
+    ',.,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,.,.......=++~+~:,=++???........=+=.,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+????????II??=..,,,,,~??+:,,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,+?+,,.,,,,,,~===~~,,,,,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n'
+    ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n')
+
+    print (rat)
+    os.system('pause')
+    cls()
+
+
+
 
 
 #### DELAY PRINTERS ####
@@ -497,8 +534,15 @@ def roll_credits():
 
 ################### MAIN GAME LOOP#################
 ###################################################
-answer = input("would you like to play my game? (yes/no)")
-
+msg =(
+' _ __________ _          _  _     ___       _____   __           _____        __     ___   _              __  \n'
+'| |___ /___ /| |_  /\  /\ || |   / __\ /\ /\___ /  /__\         /__   \/\  /\/__\   / _ \ /_\    /\/\    /__\ \n'
+'| | |_ \ |_ \| __|/ /_/ / || |_ / /   / //_/ |_ \ / \//  _____    / /\/ /_/ /_\    / /_\///_.\  /    \  /_\   \n'
+'| |___) |__) | |_/ __  /|__   _/ /___/ __ \ ___) / _  \ |_____|  / / / __  //__   / /_/\/  _  \/ /\/\ \//__   \n'
+'|_|____/____/ \__\/ /_/    |_| \____/\/  \/|____/\/ \_/          \/  \/ /_/\__/   \____/\_/ \_/\/    \/\__/   \n')
+print (msg)
+                                                                                                             
+answer = input("would you like to play? (yes/no)")
 if answer.lower().strip() == "yes": 
     #this removes all the spaces at the end and also changes caps to lowercase
     #this also applies lower() and strip() to answer
@@ -517,7 +561,7 @@ if answer.lower().strip() == "yes":
     #maingame() #use this to shortcut call maingame
     game_intro() #for the full game
     #moicload()
- 
+    #nakedmolerat()
 else:
     print("another day, maybe?")
 
