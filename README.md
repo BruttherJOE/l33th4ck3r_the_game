@@ -6,12 +6,12 @@
 | |__) |_) | |_/ __  /|__   _/ /__/ __ \ __) / _  \|_|/ / / __  //__  / /_/\/  _  \/ /\/\ \//__   
 |_|___/___/ \__\/ /_/    |_| \___/\/  \/|___/\/ \_/   \/  \/ /_/\__/  \____/\_/ \_/\/    \/\__/   
 ```
-
+  ## Introduction
 A game I made for digital world assignment.  
-This game was created for me to learn simple terminal level UI programming, as well as simple OOP and simple recursive functions.  
+This game was created for me to learn simple TUI (text-based user interface), as well as simple OOP and simple recursive functions.  
 This game made to be able to be fully run on any python program that has a terminal.  
 In time, I will make it into an executable (.exe)  
-It does not require any downloads, installs, or external libraries.  
+It does not require any downloads, installs, or external libraries. This was a constraint given to me for the purposes of this game, or else I would have used the curses library as it is a prebuilt library.  
   
   ## Description
 ```
