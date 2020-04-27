@@ -47,6 +47,7 @@ You are to type commands to navigate the command terminal.
   
 ## Video link
 https://youtu.be/bBRHjoUY5k8
+https://vimeo.com/user114000419/review/412291524/9bd5ea5574
 
 ## Disclaimer
 I do not hold any liability or responsibility for any wannabe hackers that cause damage to property or infrastructure of any sort.  
