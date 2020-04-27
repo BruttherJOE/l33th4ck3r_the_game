@@ -41,9 +41,27 @@ You are to type commands to navigate the command terminal.
   an example is `nano readme.txt`  
   
   to ssh, `ssh [username]@[ip address]` in the home directory.  
+  these are only some of the controls. as it is a puzzle game, it is up to the player to navigate and find the help files and commands to win the game.
   
   ## Navigation
   ALL information on what to type in the terminal can be found in the numerous help files and notes located in my virtual terminal in this game. the user is expected to find them and use them, to complete the game.
+  
+  ## Code Organisation  
+  first picture class fn  
+  Makes use of OOP to initialise player with values. These values will be changed accordingly within the game when needed to change.  
+  
+  second picture desktop  
+  Each location in the terminal makes use of function calling. Each location is a function. To do the `ls` command, I had to make use of recursion to prevent the program from exiting. Each function was then carefully tested, then tailored such that this recursion would not cause any problems.
+  
+  third pic delayprinter  
+  delayprinter makes use of a function and an input, and the sys module. It will flush the memory buffer then print the characters one by one with a delay.  
+  
+  fourthpic shortcutdebug
+  debugging makes use of shortcuts to warp for easier debugging. This is also the main game loop to call the first function.
+  
+  fifthpic ascii art  
+  easter egg (a hidden joke)
+  
   
 ## Video link
 https://vimeo.com/412291524  
