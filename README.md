@@ -23,13 +23,16 @@ To do that, you have to ddos the school network,
 then ssh into one of the prof's computer and change the student's grades.
 ```  
   
-  `This is an educational puzzle game intended for people new to linux shell navigation.`
+  `This is an educational puzzle game intended for people new to linux shell navigation, to let them get used to the shell commands. It is made to be as realistic as possible.`
   
 While not 100% factually correct, this game serves as a beginner tutorial on shell navigation in linux.  
-Perhaps, in future, if time permits, I will add in more functions, and levels will get progressively harder and more complicated. Or you can pay me to complete the game.
+Perhaps, in future, if time permits, I will add in more functions, and levels will get progressively harder and more complicated.  
   
-## Controls  
+  
+  
+## Controls and how to play the game    
 You are to type commands to navigate the command terminal.  
+  
 `cd`- change directory  
   `cd ~` to move to home directory  
   `cd desktop` to move to desktop directory  
@@ -41,6 +44,7 @@ You are to type commands to navigate the command terminal.
   an example is `nano readme.txt`  
   
   to ssh, `ssh [username]@[ip address]` in the home directory.  
+  
   these are only some of the controls. as it is a puzzle game, it is up to the player to navigate and find the help files and commands to win the game.
   
   ## Navigation
@@ -69,6 +73,9 @@ You are to type commands to navigate the command terminal.
   
 ## Video link
 https://vimeo.com/412291524  
+
+## Github link
+https://github.com/BruttherJOE/l33th4ck3r_the_game
   
 ## Disclaimer
 I do not hold any liability or responsibility for any wannabe hackers that cause damage to property or infrastructure of any sort.  
