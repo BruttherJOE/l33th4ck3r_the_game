@@ -47,20 +47,24 @@ You are to type commands to navigate the command terminal.
   ALL information on what to type in the terminal can be found in the numerous help files and notes located in my virtual terminal in this game. the user is expected to find them and use them, to complete the game.
   
   ## Code Organisation  
+  ### OOP
   ![class fn](./assets/classfn.png)  
   Makes use of OOP to initialise player with values. These values will be changed accordingly within the game when needed to change.  
   
+  ### Function Calling
   ![desktop](./assets/desktop.png)  
-  Each location in the terminal makes use of function calling. Each location is a function. To do the `ls` command, I had to make use of recursion to prevent the program from exiting. Each function was then carefully tested, then tailored such that this recursion would not cause any problems.
+  Each location in the terminal makes use of function calling. Each location is a function. To do the `ls` command, I had to make use of recursion to prevent the program from exiting. Each function was then carefully tested, then tailored such that this recursion would not cause any problems. Each function has a primary and secondary loop. This is because there are 2 possibilities on the first try : either the person gets it right or he does not. This loop ensures no glitches.  
   
+  ### Text is printed like in a game
   ![delayprinter](./assets/delayprint.png)    
-  delayprinter makes use of a function and an input, and the sys module. It will flush the memory buffer then print the characters one by one with a delay.  
-  
+  delayprinter makes use of a function and an input, and the sys module. It will flush the memory buffer then print the characters one by one with a delay. My game has several delayprinters of different delays.  
+  ### Debugging
   ![class fn](./assets/shortcutdebug.png)  
-  debugging makes use of shortcuts to warp for easier debugging. This is also the main game loop to call the first function.
+  debugging makes use of shortcuts to warp for easier debugging. This is also the main game loop to call the first function.  
   
+  ### ASCII ART
   ![ascii](./assets/ascii.png)    
-  easter egg by ascii art (a hidden joke)
+  easter egg by ascii art (a hidden joke)  
   
   
 ## Video link
