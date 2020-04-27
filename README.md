@@ -46,9 +46,8 @@ You are to type commands to navigate the command terminal.
   ALL information on what to type in the terminal can be found in the numerous help files and notes located in my virtual terminal in this game. the user is expected to find them and use them, to complete the game.
   
 ## Video link
-https://youtu.be/bBRHjoUY5k8
-https://vimeo.com/user114000419/review/412291524/9bd5ea5574
-
+https://vimeo.com/412291524  
+  
 ## Disclaimer
 I do not hold any liability or responsibility for any wannabe hackers that cause damage to property or infrastructure of any sort.  
   
